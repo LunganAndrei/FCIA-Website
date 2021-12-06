@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./resources/assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    
+    
+    
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">FCIA</a>
+        <div class="nav__menu" id="nav-menu"></nav_menu>
+          <ul class="nav__list">
+            <li class="nav_item">
+              <a href="#home" class="nav__link active-link">HOME</a>
+            </li>
+            <li class="nav_item">
+              <a href="#stiri" class="nav__link active-link">Stiri</a>
+            </li>
+            <li class="nav_item">
+              <a href="#info-studenti" class="nav__link active-link">Info Studenti</a>
+            </li>
+            <li class="nav_item">
+              <a href="#info-masterezi" class="nav__link active-link">Info Masterezi</a>
+            </li>
+
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <img src="./resources/imgs/temp1.jpeg" alt="" class="home__img">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Despre Noi</span>
+            <h1 class="home__data-title">Facultatea<br>De Calculatoare<br><b></b>Si <br> Informatica</b></h1>
+            <a href="#about" class="button">Despre Noi</a>
+          </div>
+          <div class="home__social">
+            <a href="https://www.facebook.com/FCIAtibiscus"target="_blank" class="home__social-link">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="https://github.com/LunganAndrei?tab=repositories"target="_blank" class="home__social-link">
+              <i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/lungan-andrei-3a7724200/"target="_blank" class="home__social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+          <div class="home__info">
+            <div class="home__info_overlay">
+              <h3 class="home__text-info">
+                La ora actuală studenţii şi masteranzii facultăţii beneficiază de o pregătire complexă 
+                orientată prioritar spre domeniile având o aplicabilitate practică imediată şi pentru care 
+                există o cerere constantă pe piaţa muncii (programare în C, C++ şi Java, reţele de 
+                calculatoare, baze de date, web design, multimedia etc.). Acest fapt a permis ca o bună 
+                parte dintre absolvenţii noştri să ocupe locuri de muncă bine plătite în firme de prestigiu 
+                din România şi multe alte locuri de pe întreg mapamondul, din Noua Zeelandă şi până în vestul
+                îndepărtat al Canadei.
+              </h3>
+            </div>
+            <div>
+              <span class="home__info-title"></span>
+              <a href="#" class="button button-flex button--link home__info-button">
+                MORE
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        
+
+
+
+        </div>
+
+      </section>
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about_data">
+            <h2 class="section__title about__title">Facultatea de Calculatoare şi<br> Aplicată (FCIA)</h2>
+            <p class="about__description">Facultatea de Calculatoare şi Informatică Aplicată (FCIA) şi-a 
+              început activitatea în anul universitar 2000-2001 odată cu autorizarea sa de către Consiliul 
+              Naţional de Evaluare şi Acreditare (cu nr. RC P062/370A din 4 iulie 2000) şi apariţia Hotărârii 
+              Guvernului Nr. 1215/29.11.2000. Fondatorii sunt un grup de profesori de matematică şi ingineri 
+              doritori să construiască o alternativă performantă la învăţământul informatic de stat din Timişoara.
+
+              În 2008, urmare a vizitei de evaluare, Agenţia Română de Evaluare a Calităţii în Învăţământul 
+              Superior a dispus acreditarea specializării Informatică (prin decizia 3586/2008, cu calificativul 
+              maxim „încredere”). Cifra de şcolarizare fixată de ARACIS este de 75 de studenţi. Ulterior, prin 
+              decizia ARACIS nr. 7461/2008, au fost acreditate - de asemenea cu calificativul „încredere” - şi 
+              specializările de master: „Web design” şi „Administrarea Sistemelor Distribuite” cu câte 30 de locuri 
+              fiecare. Începând cu anul 2013, acestea au format domeniul de studii universitare de masterat 
+              "Informatică", având la admitere 100 locuri. Urmare a vizitei de evaluare externă a calităţii în universtate, 
+              specializarea de licenţă "Informatică" a primit în anul 2015 calificativul "Încredere" la evaluarea de program 
+              de studii.</p>
+            <p class="about__description">
+              
+              Cadrele didactice (profesori, conferenţiari, lectori şi asistenţi, cadre didactice 
+              titulare, asociate sau invitate) sunt specialişti care îmbină experienţa profesională dobândită în disciplinele 
+              pe care le 
+              tutorează cu pedagogia modernă şi cu un stil de lucru deschis apropiat de studenţi.
+
+              Pe lângă activitatea didactică, FCIA este angrenată, prin intermediul "Centrului de Cercetare Ştiinţifică şi 
+              Inovare Tehnologică în Informatică Aplicată" şi prin filiala din România a "Institutului International Geogebra" 
+              (găzduit în România de FCIA) în proiecte de cercetare ştiinţifică care au ca rezultat un număr important de 
+              articole publicate în reviste indexate ISI şi BDI.</p>
+            
+          </div>
+          <div class="about__img">
+            <div class="about_img-overlay">
+              <img src="./resources/imgs/about-us2.jpg" alt="" class="about__img-one">
+            </div>
+            <div class="about_img-overlay">
+              <img src="./resources/imgs/about-us1.jpg" alt="" class="about__img-two">
+            </div>
+          </div>
+          <div >
+            <h2 class="section__title">Profesori</h2>
+          </div>
+          <div class=teachers__container>
+            <div>
+              <img src="https://fcia.tibiscus.ro/imagini/profesori/100x133/pintea.jpg" alt="" class="teachers__img">
+              <!-- <span class="teachers__name">Lect.univ.dr. <br>Florentina Pintea</span> -->
+            </div>
+            <div>
+              <img src="https://fcia.tibiscus.ro/imagini/profesori/100x133/ciorba.jpg" alt="" class="teachers__img">
+              <!-- <span class="teachers__name">Lect.univ.drd.<br> Lucian Ciorba</span> -->
+            </div>
+            <div>
+              <img src="https://fcia.tibiscus.ro/imagini/profesori/100x133/streian.jpg" alt="" class="teachers__img">
+              <!-- <span class="teachers__name">Lect.univ.<br>Virgiliu Streian</span> -->
+            </div>
+            <div>
+              <img src="https://fcia.tibiscus.ro/imagini/profesori/100x133/karnyanszky.jpg" alt="" class="teachers__img">
+              <!-- <span class="teachers__name">Conf.univ.dr.ing.<br>Tiberiu Karnyanszky</span> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news section container" id="stiri">
+        <h2 class="section__title">Stiri</h2>
+
+        <div class="news__container  swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/Coffee-WorkShop-UTT.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title1</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/wespeakcode2019.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title2</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/invitatie2019.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title3</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/simpozion-studentesc2019.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title4</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/vic2018.png" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title5</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/JAVA-Competition2017.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title6</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/MICROSOFT-2017.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title7</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/harta2016.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title8</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="news__card swiper-slide">
+              <img src="https://fcia.tibiscus.ro/imagini/simpozion-studentesc2016.jpg" alt="" class="news__img">
+              <div class="news__data">
+                <h2 class="news__title">Title9</h2>
+                <span class="news__description">Descriere</span>
+              </div>
+
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+
+
+      <section class="info-studenti section" id="info-studenti">
+        <h2 class="studenti__title section__title container">Info <br>Studenti</h2>
+        <div class="studenti__container container grid">
+          <div class="studenti__content">
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Studenţi 2021/2022</h2>
+              <span class="studenti__description">În anul universitar 2021/2022, se regăsesc:<br>
+                <br>
+                anul I - tutor: Conf.univ.dr. Laurențiu Dan LACRĂMĂ<br>
+                anul II - tutor: asist. Tabita Ligia PINTEA<br>
+                anul III - tutor: lect.univ.dr. Olivia Anne-Marie VALE<br><br></span>
+            </div>
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Orar 2021/2022</h2>
+              <span class="studenti__description">
+                Orarul semestrului I [descarcă]<br>
+                Orar sport sem. I [descarca]<br>
+                <br>
+                Orarul semestrului II [urmeaza]<br>
+                Orar sport sem. II [urmeaza]<br><br></span>
+            </div>
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Taxe 2021/2022</h2>
+              <span class="studenti__description">Taxa anuală este de 3.700 lei şi se achită în trei perioade, după cum urmează:<br>
+                <mark>Rata I, 1850 de lei, Până la data de 24.09.2021<br>
+                Rata II, 925 de lei, Până la data de 03.12.2021<br>
+                Rata III, 925 de lei, Până la data de 18.03.2022</mark><br>
+                <br>
+                Taxa de şcolarizare pentru studenţii aflaţi în anul de PRELUNGIRE A ŞCOLARITĂŢII: <br>
+                25% din taxa anuală de studiu (25% x 3700 = 925 lei). Taxa poate fi achitată, fără penalizare,
+                cel târziu până la data de 30.10.2021 inclusiv.<br>
+                <br>
+                Taxa pentru recontractare materie nepromovată în anul contractat: după formula (taxă anuală a anului de 
+                studiu în curs/60) x nr. de credite pe disciplină. Această taxă include parcurgerea activităţii de curs, 
+                seminar sau laborator şi prezentarea gratuită la prima planificare. Dacă materia este prevăzută în semestrul I, 
+                taxa poate fi achitată, fără penalizare, cel târziu până la data de 15.10.2021 inclusiv. Dacă materia este 
+                prevăzută în semestrul II, taxa poate fi achitată, fără penalizare, cel târziu până la data de 18.03.2022 inclusiv.<br>
+                <br>
+                Neachitarea în termen a fiecărei rate sau a taxei de şcolarizare pentru studenţii de la studii universitare 
+                de licenţă sau studii universitare de masterat aflaţi în anul de PRELUNGIRE A ŞCOLARITĂŢII, obligaţie a studentului, 
+                anulează această calitate a sa şi toate drepturile de care beneficiază (prezentarea la examene, eliberarea unei adeverinţe etc.). 
+                Din momentul achitării taxei studentul beneficiază, din nou, de toate drepturile prevăzute în Regulamentul privind activitatea studenţilor din Universitatea "Tibiscus".<br>
+                <br>
+                Pentru depãşirea perioadei de platã a oricăreia din taxele de mai sus, se percep penalizãri de 1% pe zi, pânã la 25% din suma datoratã.<br>
+                <br>
+                Pentru achitarea integrală a taxei anuale pentru studii se aplică o reducere de 15% din valoarea taxei, dacă plata se realizează până la data de 15.07.2021.<br>
+                <br>
+                La plata integrală a taxei pentru anul I de studiu (licență și master) până la data de 24.09.2021 se obține securizarea locului ocupat în urma admiterii<br>
+                <br>
+                Achitarea taxelor de mai sus se poate face la casieria universităţii (str. Lascăr Catargiu nr. 6, parter, orar L-V 10-15) sau, pentru taxele de 
+                şcolarizare şi de finalizare a studiilor, direct în cont:<br>
+                <br>
+                <mark>Universitatea "Tibiscus" din Timişoara<br>
+                Str. Daliei nr. 1/A, cod 300558<br>
+                Cont ROL - RAIFFEISEN BANK<br>
+                RO33 RZBR 0000 0600 0369 0455<br>
+                Cod Fiscal 2803804</mark><br><br>
+              
+              
+              
+              
+              </span>
+            </div>
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Structura anului universitar 2021/2022</h2>
+              <span class="studenti__description">
+                Activitate didactică:<br>
+                  <b>-semestrul I: 04.10.2021 - 19.12.2021 şi 03.01.2022 - 23.01.2022<br>
+                  -semestrul II: 21.02.2022 - 21.04.2022 și 02.05.2022 - 05.06.2022 (pentru anii terminali: 24.05.2022 - 05.06.2022</b> Elaborarea lucrării de licenţă/disertaţie)<br>
+                  <br>
+                  Sesiuni de examene:<br>
+                  <br>
+                  -sesiune de examene de iarnă: 24.01.2022 - 13.02.2022<br>
+                  -sesiune de restanţe pentru sesiunea de iarnă: 21.02.2022 - 27.02.2022<br>
+                  -sesiune de examene de vară: 06.06.2022 - 26.06.2022<br>
+                  -sesiune de restanţe pentru sesiunea de vară: 27.06.2022 - 03.07.2022<br>
+                  -sesiune de reexaminări: 01.09.2022 - 16.09.2022 (pentru anii terminali: 04.07.2022 - 10.07.2022)<br>
+                  <br>
+                  Examene de licenţă/disertaţie:<br>
+                  <br>
+                  -sesiunea de iarnă aferentă licenţei/disertaţiei 2022: 31.01.2022 - 05.02.2022<br>
+                  -sesiune de vară (disertatie) 2022: 11.07.2022 - 27.07.2022<br>
+                  <br>
+                  Vacanţe:<br>
+                  <br>
+                  -vacanţa de iarnă: 20.12.2021 - 02.01.2022<br>
+                  -vacanţă intersemestrială: 14.02.2022 - 20.02.2022<br>
+                  -vacanţă: 22.04.2022 - 01.05.2022<br>
+                  -vacanţă de vară: 04.07.2022 - 31.08.2022<br>
+              </span>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+        
+      </section>
+      <section class="info-masterezi section" id="info-masterezi">
+        <h2 class="studenti__title section__title container">Info <br>Masteranzi</h2>
+        <div class="studenti__container container grid">
+          <div class="studenti__content">
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Masteranzi 2021/2022</h2>
+              <span class="studenti__description"><br>
+                <br>
+                În anul universitar 2021/2022, în domeniul Informatică, master ASD(Administrarea Sistemelor Distribuite) se regăsesc masteranzii:<br>
+                <br>
+                anul I<br>
+                anul II.<br>
+                <br>
+            </div>
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Orar 2021/2022</h2>
+              <span class="studenti__description">
+                Orarul semestrului I [descarcă]<br>
+                Orar sport sem. I [descarca]<br>
+                <br>
+                Orarul semestrului II [urmeaza]<br>
+                Orar sport sem. II [urmeaza]<br><br></span>
+            </div>
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Taxe 2021/2022</h2>
+              <span class="studenti__description">Taxa anuală este de 3.700 lei şi se achită în trei perioade, după cum urmează:<br>
+                <mark>Rata I, 1900 de lei, Până la data de 15.10.2021<br>
+                Rata II, 950 de lei, Până la data de 03.12.2021<br>
+                Rata III, 950 de lei, Până la data de 18.03.2022</mark><br>
+                <br>
+                Taxa de şcolarizare pentru studenţii aflaţi în anul de PRELUNGIRE A ŞCOLARITĂŢII: <br>
+                25% din taxa anuală de studiu (25% x 3700 = 925 lei). Taxa poate fi achitată, fără penalizare,
+                cel târziu până la data de 30.10.2021 inclusiv.<br>
+                <br>
+                Taxa pentru recontractare materie nepromovată în anul contractat: după formula (taxă anuală a anului de 
+                studiu în curs/60) x nr. de credite pe disciplină. Această taxă include parcurgerea activităţii de curs, 
+                seminar sau laborator şi prezentarea gratuită la prima planificare. Dacă materia este prevăzută în semestrul I, 
+                taxa poate fi achitată, fără penalizare, cel târziu până la data de 15.10.2021 inclusiv. Dacă materia este 
+                prevăzută în semestrul II, taxa poate fi achitată, fără penalizare, cel târziu până la data de 18.03.2022 inclusiv.<br>
+                <br>
+                Neachitarea în termen a fiecărei rate sau a taxei de şcolarizare pentru studenţii de la studii universitare 
+                de licenţă sau studii universitare de masterat aflaţi în anul de PRELUNGIRE A ŞCOLARITĂŢII, obligaţie a studentului, 
+                anulează această calitate a sa şi toate drepturile de care beneficiază (prezentarea la examene, eliberarea unei adeverinţe etc.). 
+                Din momentul achitării taxei studentul beneficiază, din nou, de toate drepturile prevăzute în Regulamentul privind activitatea studenţilor din Universitatea "Tibiscus".<br>
+                <br>
+                Pentru depãşirea perioadei de platã a oricăreia din taxele de mai sus, se percep penalizãri de 1% pe zi, pânã la 25% din suma datoratã.<br>
+                <br>
+                Pentru achitarea integrală a taxei anuale pentru studii se aplică o reducere de 15% din valoarea taxei, dacă plata se realizează până la data de 15.07.2021.<br>
+                <br>
+                La plata integrală a taxei pentru anul I de studiu (licență și master) până la data de 24.09.2021 se obține securizarea locului ocupat în urma admiterii<br>
+                <br>
+                Achitarea taxelor de mai sus se poate face la casieria universităţii (str. Lascăr Catargiu nr. 6, parter, orar L-V 10-15) sau, pentru taxele de 
+                şcolarizare şi de finalizare a studiilor, direct în cont:<br>
+                <br>
+                <mark>Universitatea "Tibiscus" din Timişoara<br>
+                Str. Daliei nr. 1/A, cod 300558<br>
+                Cont ROL - RAIFFEISEN BANK<br>
+                RO33 RZBR 0000 0600 0369 0455<br>
+                Cod Fiscal 2803804</mark><br><br>
+              
+              
+              
+              
+              </span>
+            </div>
+            <!--  -->
+            <div class="studenti__data">
+              <h2 class="studenti__number">Structura anului universitar 2021/2022</h2>
+              <span class="studenti__description">
+                Activitate didactică:<br>
+                  <b>-semestrul I: 04.10.2021 - 19.12.2021 şi 03.01.2022 - 23.01.2022<br>
+                  -semestrul II: 21.02.2022 - 21.04.2022 și 02.05.2022 - 05.06.2022 (pentru anii terminali: 24.05.2022 - 05.06.2022</b> Elaborarea lucrării de licenţă/disertaţie)<br>
+                  <br>
+                  Sesiuni de examene:<br>
+                  <br>
+                  -sesiune de examene de iarnă: 24.01.2022 - 13.02.2022<br>
+                  -sesiune de restanţe pentru sesiunea de iarnă: 21.02.2022 - 27.02.2022<br>
+                  -sesiune de examene de vară: 06.06.2022 - 26.06.2022<br>
+                  -sesiune de restanţe pentru sesiunea de vară: 27.06.2022 - 03.07.2022<br>
+                  -sesiune de reexaminări: 01.09.2022 - 16.09.2022 (pentru anii terminali: 04.07.2022 - 10.07.2022)<br>
+                  <br>
+                  Examene de licenţă/disertaţie:<br>
+                  <br>
+                  -sesiunea de iarnă aferentă licenţei/disertaţiei 2022: 31.01.2022 - 05.02.2022<br>
+                  -sesiune de vară (disertatie) 2022: 11.07.2022 - 27.07.2022<br>
+                  <br>
+                  Vacanţe:<br>
+                  <br>
+                  -vacanţa de iarnă: 20.12.2021 - 02.01.2022<br>
+                  -vacanţă intersemestrială: 14.02.2022 - 20.02.2022<br>
+                  -vacanţă: 22.04.2022 - 01.05.2022<br>
+                  -vacanţă de vară: 04.07.2022 - 31.08.2022<br>
+              </span>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+
+
+    <a href="#" class="scrollup show-scroll" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    <script src="./resources/assets/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    
+    
+  </body>
+</html>
